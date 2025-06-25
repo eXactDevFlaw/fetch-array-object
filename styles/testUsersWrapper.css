@@ -1,0 +1,12 @@
+.test_users_wrapper {
+    width: 400px;
+    height: 250px;
+    background-color: var(--secondary-color);
+    box-shadow: var(--box-shadow-color);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

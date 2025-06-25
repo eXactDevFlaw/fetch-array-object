@@ -1,0 +1,39 @@
+@import url("styles/tasksWrapper.css");
+@import url("styles/usersWrapper.css");
+@import url("styles/testUsersWrapper.css");
+
+:root {
+    --main-color: gray;
+    --secondary-color: green;
+    --box-shadow-color: 2px 2px 5px rgb(59, 59, 59);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--main-color);
+}
+
+main {
+    display: block;
+}
+.center_content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px
+}
+
+.mode-foreach {
+    border: 3px solid #3cc13c !important;
+}
+.mode-for {
+    border: 3px solid #c13c3c !important;
+}
